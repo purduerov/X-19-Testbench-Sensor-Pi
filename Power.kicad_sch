@@ -318,6 +318,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1170,13 +1523,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 99.06 156.21)
+			(xy 167.64 96.52) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19c4d8fe-f6eb-42f1-9518-04ae48fbd53b")
+		(uuid "265d706d-c4d5-484f-8250-acd2c9b52d16")
 	)
 	(wire
 		(pts
@@ -1210,16 +1563,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 142.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f40916-c12a-4b2f-a53c-4b5a00bf16bc")
-	)
-	(wire
-		(pts
 			(xy 121.92 97.79) (xy 121.92 99.06)
 		)
 		(stroke
@@ -1240,7 +1583,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 80.01) (xy 116.84 80.01)
+			(xy 160.02 111.76) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f3b924-15d8-40f8-bafe-ef39c45035ad")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1257,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "a2905f50-b442-4e2c-88d3-821750175b20")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55910d0-bd64-4e60-b965-daa244f63c8d")
 	)
 	(wire
 		(pts
@@ -1290,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 148.59) (xy 161.29 129.54)
+			(xy 161.29 148.59) (xy 161.29 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1320,16 +1683,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 87.63) (xy 142.24 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8fb6d6-7d0a-4540-9a3f-7c0285c11792")
-	)
-	(wire
-		(pts
 			(xy 140.97 104.14) (xy 132.08 104.14)
 		)
 		(stroke
@@ -1350,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 129.54) (xy 101.6 129.54)
+			(xy 161.29 132.08) (xy 101.6 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 101.6 143.51)
+			(xy 101.6 132.08) (xy 101.6 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1747,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 113.03 80.01 180)
+		(at 116.84 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1404,7 +1757,7 @@
 		)
 		(uuid "0c4e4b73-83b2-417b-b3de-a664479207f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 80.01 0)
+			(at 111.5567 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +1794,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 139.7 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1452,7 +1805,7 @@
 		)
 		(uuid "26c38864-516d-4d8b-9dc6-b585e3fccdb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2533 111.76 0)
+			(at 147.3646 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1514,7 +1867,7 @@
 	)
 	(global_label "POST_SHUNT"
 		(shape input)
-		(at 116.84 87.63 180)
+		(at 120.65 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1524,7 +1877,7 @@
 		)
 		(uuid "8ea003b8-3300-4a81-a239-32ca623f78eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.941 87.63 0)
+			(at 105.751 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +1938,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 135.89 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1596,7 +1949,7 @@
 		)
 		(uuid "997c9607-29dd-4515-b574-cc9f3b04fc3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.3828 114.3 0)
+			(at 143.4941 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1610,7 +1963,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 138.43 87.63 180)
+		(at 157.48 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1618,9 +1971,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b43dc95e-3867-409c-b309-b39379ee65fd")
+		(uuid "b14d4d6a-baf9-42fb-9a0f-0570bf71533e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1467 87.63 0)
+			(at 152.1967 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,10 +2019,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "313f5ab0-8813-4fcf-a8a5-7c16ae1ec2cc")
 		(property "Reference" "C1"
-			(at 102.87 91.4399 0)
+			(at 106.68 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1740,7 +2092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 83.82 0)
+		(at 120.65 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1751,7 +2103,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b5a3d84-a8fe-462a-9f07-f3eec9813ac2")
 		(property "Reference" "R1"
-			(at 119.38 82.5499 0)
+			(at 123.19 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1762,7 +2114,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 119.38 85.0899 0)
+			(at 123.19 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.062 83.82 90)
+			(at 118.872 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +2136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 83.82 0)
+			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +2147,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 83.82 0)
+			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,6 +2167,108 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 163.83 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e48262e-c827-43cc-8970-c3bfd5b4f665")
+		(property "Reference" "D1"
+			(at 163.83 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 163.83 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6a670c4-6a4e-47df-9a88-2a5ea02e32d2")
+		)
+		(pin "2"
+			(uuid "6fad86cd-a6fd-4042-bded-ef1ead9a3425")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2135,7 +2589,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 147.32 87.63 0)
+		(at 187.96 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2145,8 +2599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91958621-82d7-4d5c-9534-a6d41b9f541c")
-		(property "Reference" "5V"
-			(at 149.86 87.6299 0)
+		(property "Reference" "VIN"
+			(at 190.5 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2156,8 +2610,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 90.1699 0)
+		(property "Value" "PWR_IN"
+			(at 190.5 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2167,8 +2621,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 147.32 87.63 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2179,7 +2633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 87.63 0)
+			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2644,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 87.63 0)
+			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2209,7 +2663,7 @@
 		(instances
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
-					(reference "5V")
+					(reference "VIN")
 					(unit 1)
 				)
 			)
@@ -2294,6 +2748,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 167.64 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a28cd977-db51-4b0c-92e4-0241b79c3554")
+		(property "Reference" "F1"
+			(at 170.18 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 170.18 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 167.64 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57fe5015-c6f0-47aa-b0e1-9d40393d280b")
+		)
+		(pin "2"
+			(uuid "8ef49015-8077-4d4b-9aff-79291c6bf802")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 146.05 0)
 		(unit 1)
@@ -2366,84 +2903,6 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa1d3c6-d4f4-4ff5-8e4d-26d9e86c0ec9")
-		(property "Reference" "#PWR015"
-			(at 133.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
-			(at 133.35 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c12aa74-380d-450e-a4ba-d64e3ef7f39e")
-		)
-		(instances
-			(project "X-19-Testbench-Sensor-Pi"
-				(path "/00000000-0000-0000-0000-000060e6118b/b600c453-bc9f-4973-a1fc-12c0c2932cce"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
