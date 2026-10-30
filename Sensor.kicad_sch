@@ -5,6 +5,161 @@
 	(uuid "107cb6d6-c26c-4dbe-ae5e-716f2eb5d688")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2009,6 +2164,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 262.89 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b745973-1631-4c97-8fa6-fb1de4ba6c3a")
+	)
+	(junction
+		(at 80.01 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fb980d3-0feb-472b-a717-d2ebfed1a22b")
+	)
+	(junction
+		(at 123.19 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8b1170-5b58-4997-8760-cb791b8d120f")
+	)
+	(junction
+		(at 156.21 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e652a0-a786-4282-855b-8dc8a309c971")
+	)
+	(junction
+		(at 212.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3ae4a7-5ea2-4cc0-9424-697b087c37fa")
+	)
+	(junction
+		(at 118.11 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b01c94-2bf4-4f80-bd12-2be2cabcd646")
+	)
+	(no_connect
+		(at 133.35 119.38)
+		(uuid "01ea3cf9-3cbf-4f6c-9561-7b0bb307441d")
+	)
+	(no_connect
+		(at 92.71 116.84)
+		(uuid "0830e2f1-1bea-4775-9d98-343094e1ffbb")
+	)
+	(no_connect
+		(at 92.71 114.3)
+		(uuid "47ce4e23-64d0-4b0f-a29d-2d3b68462c69")
+	)
+	(no_connect
+		(at 133.35 121.92)
+		(uuid "c22dd136-73cf-4b28-b3f7-05b9355f55aa")
+	)
+	(no_connect
+		(at 92.71 119.38)
+		(uuid "d9ad7df1-b7ba-4f00-9230-951709b10244")
+	)
+	(no_connect
+		(at 133.35 124.46)
+		(uuid "e4d7a2fe-3399-47d3-9368-1e6a17e070ba")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000a8f8c-7783-4261-a5fc-2ca830790a26")
+	)
 	(wire
 		(pts
 			(xy 232.41 82.55) (xy 232.41 83.82)
@@ -2018,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "01b30154-1870-4dda-b3be-b38ec8b0a2b3")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 132.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e3e199-e420-48dd-9c8a-c85d75028590")
 	)
 	(wire
 		(pts
@@ -2031,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 92.71 121.92)
+			(xy 78.74 121.92) (xy 80.01 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2058,6 +2293,66 @@
 			(type default)
 		)
 		(uuid "2140f378-b2cc-4ecf-9618-f0056e19dd7b")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 165.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c26211-c29f-47ff-8ae9-f6892dc12865")
+	)
+	(wire
+		(pts
+			(xy 80.01 121.92) (xy 92.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313a2b16-4253-452c-acc4-f0509f1539a6")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 118.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33391909-86b3-41c7-8dc4-92358bbb6862")
+	)
+	(wire
+		(pts
+			(xy 165.1 128.27) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336c5774-b110-42b0-bb6a-5f78ca235d80")
+	)
+	(wire
+		(pts
+			(xy 262.89 107.95) (xy 242.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1b8ce3-9239-4b57-916b-e05750101bcf")
+	)
+	(wire
+		(pts
+			(xy 275.59 107.95) (xy 262.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425de60b-4388-4f15-88db-4f9ae96fc54b")
 	)
 	(wire
 		(pts
@@ -2111,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 30.48) (xy 118.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614d1dbb-622d-4487-a7a1-2d17724acbf4")
+	)
+	(wire
+		(pts
 			(xy 92.71 127) (xy 92.71 140.97)
 		)
 		(stroke
@@ -2141,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 31.75) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761e78b4-d578-4562-8546-e641c2a23f33")
+	)
+	(wire
+		(pts
 			(xy 242.57 135.89) (xy 250.19 135.89)
 		)
 		(stroke
@@ -2151,13 +2466,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 113.03) (xy 171.45 113.03)
+			(xy 152.4 113.03) (xy 156.21 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7bc537d9-ac21-4349-8327-8a8a8176b53f")
+	)
+	(wire
+		(pts
+			(xy 212.09 62.23) (xy 204.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c000c27-6900-43bc-a3f2-bc0c7caa5541")
 	)
 	(wire
 		(pts
@@ -2171,6 +2496,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 38.1) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1215b4-f53c-4b34-802d-d5cd3eb2a46d")
+	)
+	(wire
+		(pts
 			(xy 223.52 83.82) (xy 223.52 82.55)
 		)
 		(stroke
@@ -2178,6 +2513,16 @@
 			(type default)
 		)
 		(uuid "808a2eb4-c42d-43b4-89e5-f2c2d43758df")
+	)
+	(wire
+		(pts
+			(xy 219.71 62.23) (xy 212.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828f7519-847d-4d0e-8cda-d700ea12ec5c")
 	)
 	(wire
 		(pts
@@ -2198,6 +2543,26 @@
 			(type default)
 		)
 		(uuid "954a7924-54cb-43ae-8bc0-92729f1ba549")
+	)
+	(wire
+		(pts
+			(xy 156.21 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc0fed0-4853-4e5f-9444-bc75354a3eff")
+	)
+	(wire
+		(pts
+			(xy 156.21 96.52) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8538c1a-ac90-4d33-bcd2-86bfec383d5f")
 	)
 	(wire
 		(pts
@@ -2261,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 39.37) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca06b1af-dea1-43c9-a99d-33e220058d79")
+	)
+	(wire
+		(pts
 			(xy 157.48 133.35) (xy 171.45 133.35)
 		)
 		(stroke
@@ -2268,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "d54da01f-cf7b-429b-9358-6ee91016c89f")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 152.4 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d597d947-fc1f-4f56-9aa3-7f8752f54cde")
 	)
 	(wire
 		(pts
@@ -2288,6 +2673,16 @@
 			(type default)
 		)
 		(uuid "e5057947-13c8-4414-9255-57ec617fd107")
+	)
+	(wire
+		(pts
+			(xy 242.57 118.11) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fbe00c-5a7a-4525-922d-cb524c5356f0")
 	)
 	(wire
 		(pts
@@ -2349,7 +2744,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 242.57 107.95 0)
+		(at 275.59 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2359,7 +2754,7 @@
 		)
 		(uuid "1073d187-441b-43f0-8a74-d7f8d077a367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.0628 107.95 0)
+			(at 282.0828 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,6 +2763,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 171.45 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "166e47bb-9713-4285-a691-af79b50be2e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2419,9 +2838,33 @@
 			)
 		)
 	)
+	(global_label "BNO_INT"
+		(shape input)
+		(at 171.45 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "344e67c0-de79-4373-8aa0-e79cd562d16c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6633 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
-		(at 123.19 50.8 90)
+		(at 123.19 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2431,7 +2874,7 @@
 		)
 		(uuid "43c65e2d-a975-43fd-8b36-b7b06967c8bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 44.3072 90)
+			(at 123.19 25.2572 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2936,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 118.11 50.8 90)
+		(at 118.11 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2503,7 +2946,7 @@
 		)
 		(uuid "58beb048-bab9-4ae6-8091-598b5127703e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.11 44.3072 90)
+			(at 118.11 23.9872 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +2960,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 85.09 121.92 180)
+		(at 78.74 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2527,7 +2970,7 @@
 		)
 		(uuid "59a52c82-11da-4494-aaa7-11cf72ab7aa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.5972 121.92 0)
+			(at 72.2472 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2984,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 204.47 62.23 0)
+		(at 219.71 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2551,7 +2994,7 @@
 		)
 		(uuid "5e780fae-674c-4a0e-b574-8c287c689f9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.9628 62.23 0)
+			(at 226.2028 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +3152,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 163.83 113.03 180)
+		(at 152.4 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2719,7 +3162,7 @@
 		)
 		(uuid "bdc889d5-b81a-4449-ba7c-92e2a4112b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.3372 113.03 0)
+			(at 145.9072 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2803,7 +3246,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "BNO_RST"
 		(shape input)
 		(at 157.48 133.35 180)
 		(fields_autoplaced yes)
@@ -2815,7 +3258,7 @@
 		)
 		(uuid "d143f888-a1bb-49d5-ade1-91b663677d42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9872 133.35 0)
+			(at 146.1491 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,6 +3315,88 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dfc2901-6bba-4837-8a58-1e5887d431e6")
+		(property "Reference" "C21"
+			(at 83.82 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 83.82 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.9752 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a01f162e-d41c-4fa6-9a7d-636ab945b6be")
+		)
+		(pin "1"
+			(uuid "75efa54d-48ff-4b35-ae33-147614235f7e")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C21")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3143,7 +3668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rov_sensors:Bosch_LGA-14_3x2.5mm_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 221.742 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -3186,6 +3711,88 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "444240af-e54d-4ea5-9431-6f6ecea24d2f")
+		(property "Reference" "C22"
+			(at 135.89 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 135.89 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.0452 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b336e68a-8d86-4e1a-9aef-480eaac54771")
+		)
+		(pin "1"
+			(uuid "52768d45-1d7f-405e-9997-d2ed9d7387bc")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3264,6 +3871,84 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470ccbec-4538-4b2e-aa49-b3cc7113372f")
+		(property "Reference" "#PWR060"
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5486ca2f-95c8-4c3c-aee3-3d89580c39db")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3508,6 +4193,486 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66853e62-a473-431d-8764-cfa3f352e221")
+		(property "Reference" "C19"
+			(at 165.1 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.2552 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4af0228c-d17d-4f83-a627-f15208d6e473")
+		)
+		(pin "1"
+			(uuid "d64f0de0-4aea-4702-9c09-6633ab5e76ea")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ddff631-aabf-4ff5-8259-8eb3a2499aa6")
+		(property "Reference" "#PWR053"
+			(at 152.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 152.4 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36105b5c-3bd9-4f79-9b03-9cc95a20039c")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74e5ba81-3e71-461a-b71d-67549e6f31a8")
+		(property "Reference" "C18"
+			(at 156.21 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 156.21 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.3652 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5cac28e-6a07-4d6d-bb4b-2b7986f0fbc1")
+		)
+		(pin "1"
+			(uuid "be8902ed-e5b4-4885-af17-4e02fe96fee5")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b53cf8-cd35-487a-a5b4-ee803b209a48")
+		(property "Reference" "#PWR057"
+			(at 80.01 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16a1fa89-2a10-4c00-a836-44152d4595c4")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a2a4ae1-bbde-4f15-bc07-d477d221bdb5")
+		(property "Reference" "C24"
+			(at 135.89 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 135.89 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.0452 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9e6b116-8d23-454e-8042-08fd788a0bb9")
+		)
+		(pin "1"
+			(uuid "b04b5dcf-6ef2-416a-8d51-07d1370f3da9")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "841cc4e0-2fa2-4a33-a962-3dd8b2ff4948")
+		(property "Reference" "#PWR061"
+			(at 212.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 212.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5ad3338-6aba-46f0-9690-2092d1811e4a")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 143.51 0)
 		(unit 1)
@@ -3595,7 +4760,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d9d9c41-34b6-47fe-b40b-24488185024c")
 		(property "Reference" "#PWR028"
 			(at 87.63 121.92 0)
@@ -3609,7 +4773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 120.65 0)
+			(at 87.63 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3959,7 +5123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rov_sensors:Bosch_LGA-14_3x2.5mm_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 230.632 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -4080,6 +5244,88 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4765767-2fac-403a-9d7a-5479f2002f4e")
+		(property "Reference" "C23"
+			(at 109.22 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.22 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.3752 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4e37125-43e3-4977-93cc-8a2bb266ffc1")
+		)
+		(pin "1"
+			(uuid "c874c9a9-0490-4b4a-b17f-56207855187a")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4421,6 +5667,166 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 105.41 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d968291c-afe4-491e-85cf-006540ad8ebb")
+		(property "Reference" "#PWR059"
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 105.41 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68a7f023-163b-4066-8738-547a283b6f06")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de73ab1f-1ea8-40cd-8b33-3bd2737a1e53")
+		(property "Reference" "C20"
+			(at 266.7 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 266.7 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.8552 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "783b6479-07d4-4ef8-90b7-9dd16dc5f110")
+		)
+		(pin "1"
+			(uuid "6c8262c4-e52f-4568-ae54-aea6aad5abf4")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 92.71 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -4492,6 +5898,400 @@
 			(project "X-19-Testbench-Sensor-Pi"
 				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25d364d-c719-4dfc-b536-8bb3afccf540")
+		(property "Reference" "#PWR056"
+			(at 250.19 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 250.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75863cec-c049-4338-b660-f5821e65b67c")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e04a2c-c037-4c41-aefe-84b589c95cae")
+		(property "Reference" "#PWR058"
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b2fb59b-b52e-423c-8440-5667d84fac29")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb499f57-501a-4585-b876-2b92700aa9fd")
+		(property "Reference" "#PWR054"
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ac010fb-21f0-4ce6-82fe-3458d89be068")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef66eb8e-19eb-4025-86c6-4d783ae64a7c")
+		(property "Reference" "C25"
+			(at 215.9 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 215.9 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.0552 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bed8f11a-8374-41a7-bbf6-d706b4ce1336")
+		)
+		(pin "1"
+			(uuid "8f857004-e2e6-40b7-af57-2e19bfc9d3a1")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa821420-4fdf-4c2f-baea-654a1e6da520")
+		(property "Reference" "#PWR055"
+			(at 262.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rov_passives:XTAL_ECS-400-18-33-JGN-TR"
+			(at 262.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cef3b720-8a7e-4b3b-9236-744fab7270aa")
+		)
+		(instances
+			(project "X-19-Testbench-Sensor-Pi"
+				(path "/00000000-0000-0000-0000-000060e6118b/2ca6e6ee-f14b-4c35-8e64-94d58095eb9d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
